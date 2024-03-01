@@ -2,7 +2,7 @@
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('dashboard') }}"><i class="la la-home nav-icon"></i> {{ trans('backpack::base.dashboard') }}</a></li>
 
 <x-backpack::menu-item title="{{ trans('backpack::base.user') }}" icon="la la-user" :link="backpack_url('user')" />
-
+<x-backpack::menu-item title="{{ trans('backpack::base.yellow_lists') }}" icon="la la-fax" :link="backpack_url('yellow-list')" />
 <x-backpack::menu-dropdown title="{{ config('backpack.crud.locales')[Session::get('locale', config('app.locale'))] }}" icon="la la-globe" :flag="config('app.locale')">
     @foreach(config('backpack.crud.locales') as $code => $native)
         @if($code != config('app.locale'))
