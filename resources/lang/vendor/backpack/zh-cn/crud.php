@@ -174,4 +174,14 @@ return [
     // InlineCreateOperation
     'related_entry_created_success' => '相关的纪录已被新增并选择。',
     'related_entry_created_error' => '无法新增相关的纪录。',
+
+    // Message errors
+    'required' => '此字段是必需的。',
+    'max' => '该字段的字符数必须少于 :max。',
+    'min' => '该字段必须至少包含 :min 个字符。',
+
+    // fields
+    'yellow_list' => [
+        'description' => '描述',
+    ],
 ];

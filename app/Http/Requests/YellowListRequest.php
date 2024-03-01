@@ -25,7 +25,9 @@ class YellowListRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'name' => 'required|min:5|max:255',
+            'description' => 'required',
+            'user_id' => 'required'
         ];
     }
 
@@ -49,7 +51,11 @@ class YellowListRequest extends FormRequest
     public function messages()
     {
         return [
-            //
+            'name.required' => trans('backpack::crud.required'),
+            'name.min' => trans('backpack::crud.min'),
+            'name.max' => trans('backpack::crud.max'),
+            'description.required' => trans('backpack::crud.required'),
+            'user_id.required' => trans('backpack::crud.required'),
         ];
     }
 }

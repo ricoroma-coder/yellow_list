@@ -177,4 +177,14 @@ return [
 
     // returned when no translations found in select inputs
     'empty_translations' => '(vacío)',
+
+    // Message errors
+    'required' => 'Este campo es obligatorio.',
+    'max' => 'Este campo debe tener menos de :max caracteres.',
+    'min' => 'Este campo debe tener al menos :min caracteres.',
+
+    // fields
+    'yellow_list' => [
+        'description' => 'Descripción',
+    ],
 ];

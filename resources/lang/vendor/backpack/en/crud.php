@@ -190,4 +190,14 @@ return [
 
     // The pivot selector required validation message
     'pivot_selector_required_validation_message' => 'The pivot field is required.',
+
+    // Message errors
+    'required' => 'This field is required.',
+    'max' => 'This field must have less than :max characters.',
+    'min' => 'This field must have at least :min characters.',
+
+    // fields
+    'yellow_list' => [
+        'description' => 'description',
+    ],
 ];

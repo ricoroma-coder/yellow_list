@@ -156,4 +156,14 @@ return [
     // InlineCreateOperation
     'related_entry_created_success' => 'Registro relacionado foi criado e selecionado.',
     'related_entry_created_error' => 'Não foi possível criar um registro relacionado.',
+
+    // Message errors
+    'required' => 'Esse campo é obrigatório.',
+    'max' => 'Esse campo deve ter no máximo :max caracteres.',
+    'min' => 'Esse campo deve ter no mínimo :min caracteres.',
+
+    // fields
+    'yellow_list' => [
+        'description' => 'Descrição',
+    ],
 ];
